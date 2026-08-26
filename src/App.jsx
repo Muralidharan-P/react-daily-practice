@@ -1,11 +1,10 @@
-import ProfileCard from "./components/ProfileCard"
-function App() {
-  return (
+import ProfileCard from "./components/ProfileCard";
+
+function App(){
+  return(
     <div>
-      <ProfileCard name="Muralidharan" role="Husband"/>
-      <ProfileCard name="Swetha" role="Murali's Control room" />
+      <ProfileCard name="Muralidharan" role="Developer"/>
     </div>
   )
 }
-
-export default App
+export default App;

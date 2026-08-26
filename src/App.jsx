@@ -1,9 +1,9 @@
-import ProfileCard from "./components/ProfileCard";
+import Counter from "./components/Counter";
 
 function App(){
   return(
     <div>
-      <ProfileCard name="Muralidharan" role="Developer"/>
+    <Counter />
     </div>
   )
 }
